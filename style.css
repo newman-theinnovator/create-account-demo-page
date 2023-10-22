@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(
+    173deg,
+    rgba(84, 35, 215, 0.24) -20.49%,
+    rgba(31, 61, 167, 0) 93.7%
+  );
+  justify-content: space-between;
+}
+
+.cta-pic {
+  width: 50%;
+}
+
+.cta-pic img {
+  width: 100%;
+}
+
+input {
+  display: flex;
+  padding: 24px 12px;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.create-account__section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 40%;
+  margin-right: 5%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+svg {
+  width: 100%;
+}
+
+.alternative__text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 9px; 
+  letter-spacing: 0.5px;
+  align-self: stretch;
+}
+
+.google-signup__button {
+  display: flex;
+  padding: 8px 160px 8px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.google-signup__text,
+input::placeholder {
+  color: #222;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+
+.create-account__button {
+  border-radius: 15px;
+  width: 100%;
+  background: #4c14e2;
+  display: flex;
+  padding: 10px 12px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
