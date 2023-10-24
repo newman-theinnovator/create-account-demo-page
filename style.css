@@ -28,7 +28,7 @@
 
 input {
   display: flex;
-  padding: 24px 12px;
+  padding: 0 24px;
   align-items: center;
   gap: 48px;
   align-self: stretch;
@@ -67,7 +67,6 @@ svg {
 
 .google-signup__button {
   display: flex;
-  padding: 8px 160px 8px 0px;
   justify-content: center;
   align-items: center;
   gap: 24px;
@@ -79,7 +78,7 @@ svg {
 .google-signup__text,
 input::placeholder {
   color: #222;
-  font-size: 16px;
+  font-size: 1.75rem;
   line-height: 18px;
   letter-spacing: 0.5px;
 }
@@ -93,7 +92,8 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 16px;
+  border: none;
+  font-size: 1.75rem;
   line-height: 18px;
   letter-spacing: 0.5px;
 }
